@@ -1,0 +1,36 @@
+package com.luv2code.springdemo;
+
+import javax.validation.Valid;
+import javax.validation.constraints.Size;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/customer")
+public class CustomerController {
+	
+	@RequestMapping("/showForm")
+	@Size(min=2)
+	public String showForm(Model model) {
+		model.addAttribute("customer", new Customer());
+		
+		return "customer-form";
+	}
+	
+	@RequestMapping("/processForm")
+	public String processForm(@Valid @ModelAttribute("customer") Customer customer
+			, BindingResult bindingResult) {
+		
+		System.out.println("last name: |"+customer.getLastName()+"|");
+		System.out.println("Binding: "+bindingResult.hasErrors());
+		
+		if(bindingResult.hasErrors())
+			return "customer-form";
+		
+		return "customer-confirmation";
+	}
+}

@@ -1,0 +1,32 @@
+package com.luv2code.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="instructor_details")
+public class InstructorDetails {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int details_id;
+	private String hobby;
+	
+	public int getId() {
+		return details_id;
+	}
+	public void setId(int id) {
+		this.details_id = id;
+	}
+	public String getHobby() {
+		return hobby;
+	}
+	public void setHobby(String hobby) {
+		this.hobby = hobby;
+	}
+	
+	
+}

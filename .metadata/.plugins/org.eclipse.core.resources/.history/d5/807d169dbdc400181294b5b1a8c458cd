@@ -1,0 +1,13 @@
+package com.springanno;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class HappyFortune implements FortuneService {
+
+	public String getHappyFortune() {
+		// TODO Auto-generated method stub
+		return "Take happy fortune @!";
+	}
+
+}

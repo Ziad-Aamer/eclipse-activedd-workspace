@@ -1,0 +1,6 @@
+package com.luv2code.springmvc.demo;
+
+@Controller
+public class HomeController {
+	
+}

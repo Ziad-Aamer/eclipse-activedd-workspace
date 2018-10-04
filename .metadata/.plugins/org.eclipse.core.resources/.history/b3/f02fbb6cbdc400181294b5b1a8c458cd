@@ -1,0 +1,10 @@
+package com.springanno;
+
+public class TrackCoach implements Coach {
+
+	public String workOut() {
+		// TODO Auto-generated method stub
+		return "Tracker Coach gooooo! " ;
+	}
+
+}

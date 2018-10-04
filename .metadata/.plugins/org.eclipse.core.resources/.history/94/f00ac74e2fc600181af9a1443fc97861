@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>how are student : ${student.firstName} ${student.lastName}</h2>
+	<h2>how are student : ${student2.firstName} ${student2.lastName}</h2>
+</body>
+</html>

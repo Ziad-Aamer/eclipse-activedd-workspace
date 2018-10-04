@@ -1,0 +1,10 @@
+package com.springfirst.demo;
+
+@Component
+public class HappyFortune implements FortuneService {
+
+	public String getFortune() {
+		return "This is your LuckyDAY !!";
+	}
+
+}

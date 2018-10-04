@@ -1,0 +1,12 @@
+package com.springfirst.demo;
+
+public class RandFortune implements FortuneService {
+	
+	private String a[] = {"Happy", "Lucky", "GOG"};
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		int rand = (int) Math.random()* 4 ;
+		return "UR DAY is " + a[rand];
+	}
+
+}

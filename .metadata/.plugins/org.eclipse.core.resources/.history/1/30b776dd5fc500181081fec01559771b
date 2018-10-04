@@ -1,0 +1,26 @@
+package com.springanno;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class RandFortune implements FortuneService{
+
+	@Value("${fortunes")
+	private String[] fortunes;
+	
+	@PostConstruct
+	private void init() {
+		System.out.println("Hello form the init method !!");
+	}
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

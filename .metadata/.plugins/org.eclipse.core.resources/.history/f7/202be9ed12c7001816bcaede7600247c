@@ -1,0 +1,48 @@
+package com.luv2code.demo;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.luv2code.entity.Student;
+
+public class AppDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SessionFactory factory = new Configuration()
+								.configure("hibernate.cfg.xml")
+								.addAnnotatedClass(Student.class)
+								.buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		
+		try {
+			
+			session.beginTransaction();
+			Student s = new Student("Khaled", "isma", "dhiawhdi2@gma.dop"); 
+			System.out.println(s);
+			session.save(s);
+			session.save(new Student("ahmed", "isma", "dhiawhdi2@gma.dcas"));
+			session.save(new Student("moha", "isma", "fasc@gma.dcas"));
+			session.save(new Student("sop", "issa", "dhiawhdi2@gma.dcas"));
+			session.save(new Student("derp", "isma", "22@gma.dop"));
+			System.out.println(s);
+
+			System.out.println("Students are saved");
+			
+			session.getTransaction().commit();
+			//run
+			//apply the HQL Queries
+			session.beginTransaction();
+			Student retrievedStudent = session.get(Student.class, s.getId());
+			System.out.println(retrievedStudent);
+			
+			session.getTransaction().commit();
+			session.close();
+			
+		}finally {
+			factory.close();
+		}
+	}
+
+}
