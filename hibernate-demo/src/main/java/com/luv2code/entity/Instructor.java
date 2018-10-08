@@ -35,8 +35,9 @@ public class Instructor {
 	//we set this column to be at the course table as a FK (in case of uni-directional
 	//
 	
-	@OneToMany(mappedBy="instructor", 
-			cascade= {CascadeType.PERSIST,CascadeType.DETACH,CascadeType.MERGE,CascadeType.REFRESH})
+	@OneToMany(mappedBy="instructor"
+			, cascade= {CascadeType.PERSIST,CascadeType.DETACH,CascadeType.MERGE,CascadeType.REFRESH}
+			, fetch=FetchType.LAZY)
 	private List<Course> courses;
 	
 	
@@ -105,7 +106,7 @@ public class Instructor {
 	@Override
 	public String toString() {
 		return "Instructor [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
-				+ ", instructorDetails=" + instructorDetails + "]";
+				+ "]";
 	}
 	
 	

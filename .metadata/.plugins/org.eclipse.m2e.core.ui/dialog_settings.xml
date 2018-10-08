@@ -2,12 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.hibernate"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="hibernate-demo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -38,6 +36,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/active/eclipse-workspace/hibernate-demo"/>
 			<item value="/home/active/eclipse-workspace/MVCDemo"/>
 			<item value="/home/active/eclipse-workspace/spring-anno-demo"/>
 			<item value="/home/active/eclipse-workspace/tryingSpring"/>
@@ -53,10 +52,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.luv2code.spring_hibernate_project"/>
 		</list>
 		<list key="groupId">
+			<item value="com.luv2code"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring-hibernate-project"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
