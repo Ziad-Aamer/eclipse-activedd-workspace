@@ -3,4 +3,7 @@
 <typeInfo handle="=spring-first/src\/main\/java&lt;com.springfirst.demo{FortuneService.java[FortuneService" modifiers="513" timestamp="1538061175379"/>
 <typeInfo handle="=spring-anno-demo/src\/main\/java&lt;com.springanno{FortuneService.java[FortuneService" modifiers="513" timestamp="1538317932355"/>
 <typeInfo handle="=spring-anno-demo/src\/main\/java&lt;com.springanno{Coach.java[Coach" modifiers="513" timestamp="1538317948387"/>
+<typeInfo handle="=spring-hibernate-project/src\/main\/java&lt;com.luv2code.springdemo.dao{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1539100032979"/>
+<typeInfo handle="=spring-security-demo-01-base-app/\/home\/active\/.m2\/repository\/org\/springframework\/security\/spring-security-config\/5.0.6.RELEASE\/spring-security-config-5.0.6.RELEASE.jar&lt;org.springframework.security.config.annotation.web.configuration(WebSecurityConfigurerAdapter.class[WebSecurityConfigurerAdapter" modifiers="1057" timestamp="1539170016367"/>
+<typeInfo handle="=spring-security-demo-01-base-app/\/home\/active\/.m2\/repository\/org\/springframework\/security\/spring-security-web\/5.0.6.RELEASE\/spring-security-web-5.0.6.RELEASE.jar&lt;org.springframework.security.web.context(AbstractSecurityWebApplicationInitializer.class[AbstractSecurityWebApplicationInitializer" modifiers="1057" timestamp="1539170021539"/>
 </typeInfoHistroy>

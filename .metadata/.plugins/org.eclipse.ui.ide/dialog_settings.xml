@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/active/Downloads/jackson-databinding-json-demo/jackson-databinding-json-demo"/>
+		<item value="/home/active/Downloads/spring-boot-demo"/>
+		<item value="/home/active/Downloads/bonus-code-spring-security-user-registration/bonus-code-spring-security-user-registration"/>
+		<item value="/home/active/eclipse-workspace/spring-security-demo-starter/spring-security-demo-01-base-app"/>
+	</list>
 	<section name="CleanDialogSettings">
 		<item value="569" key="DIALOG_WIDTH"/>
 		<item value="false" key="TOGGLE_SELECTED"/>
