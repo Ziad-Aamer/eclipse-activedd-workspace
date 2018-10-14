@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="20">
-    <list key="modules" value0="spring-security-demo-01-base-app::org.eclipse.jst.jee.server:spring-security-demo-01-base-app::jst.web::3.1" value1="bonus-code-spring-security-user-registration::org.eclipse.jst.jee.server:bonus-code-spring-security-user-registration::jst.web::3.1" value2="spring-hibernate-security-crm-project::org.eclipse.jst.jee.server:spring-hibernate-security-crm-project::jst.web::3.1"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="21">
+    <list key="modules" value0="spring-security-demo-01-base-app::org.eclipse.jst.jee.server:spring-security-demo-01-base-app::jst.web::3.1" value1="spring-hibernate-security-crm-project::org.eclipse.jst.jee.server:spring-hibernate-security-crm-project::jst.web::3.1"/>
   </server>
 </servers>
