@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/active/eclipse-workspace/spring-crm-rest-demo"/>
+		<item value="/home/active/eclipse-workspace/solution-code-spring-rest-demo-hello-world"/>
 		<item value="/home/active/Downloads/jackson-databinding-json-demo/jackson-databinding-json-demo"/>
 		<item value="/home/active/Downloads/spring-boot-demo"/>
 		<item value="/home/active/Downloads/bonus-code-spring-security-user-registration/bonus-code-spring-security-user-registration"/>
@@ -12,5 +14,7 @@
 		<item value="415" key="DIALOG_HEIGHT"/>
 		<item value="464" key="DIALOG_X_ORIGIN"/>
 		<item value="188" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>

@@ -52,13 +52,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.luv2code.spring_hibernate_project"/>
+			<item value="com.luv2code.springrest"/>
+			<item value="com.luv2code.springrest.spring_rest_demo"/>
 		</list>
 		<list key="groupId">
-			<item value="com.luv2code"/>
+			<item value="com.luv2code.springrest"/>
 		</list>
 		<list key="artifactId">
-			<item value="spring-hibernate-project"/>
+			<item value="spring-rest-demo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
